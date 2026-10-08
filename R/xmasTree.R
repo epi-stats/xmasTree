@@ -9,7 +9,7 @@
 #' The head can have additional color codes c1 and c2.
 #' The plot can be quite complex. Best way is to check the examples.
 #' If you have even more variables to plot have a look at
-#'  \link[doubleTree]{xmasTree}
+#'  \link[xmasTree]{doubleTree}
 #'
 #' @param x numeric variable, NA not allowed
 #' @param y numeric variable, NA not allowed

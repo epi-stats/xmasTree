@@ -86,7 +86,7 @@ The heads are showing either up or down if z1-z2 is pos or negative.
 The head can have additional color codes c1 and c2.
 The plot can be quite complex. Best way is to check the examples.
 If you have even more variables to plot have a look at
- \link[doubleTree]{xmasTree}
+ \link[xmasTree]{doubleTree}
 }
 \examples{
 xmasTree(x=iris$Sepal.Width,
