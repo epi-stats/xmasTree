@@ -2,6 +2,7 @@
 #'
 #' @return object of class colorRampPalette
 #'
+#' @export
 
 .genXmasColors <- function(colors = NULL, rev.palette = F)
 {
