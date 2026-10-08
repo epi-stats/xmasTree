@@ -1,8 +1,6 @@
 #' Internal function to add up and down triangles to the plot
 #'
-#' @return invisible(NULL)
-#'
-#' @export
+#' @noRd
 
 .addDirLegend <- function(direct.leg.x = -0.9,
                           direct.leg.y = 0.95)

@@ -1,8 +1,6 @@
 #' Internal function to generate color palettes
 #'
-#' @return object of class colorRampPalette
-#'
-#' @export
+#' @noRd
 
 .genXmasColors <- function(colors = NULL, rev.palette = F)
 {
