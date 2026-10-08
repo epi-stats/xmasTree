@@ -53,9 +53,13 @@ doubleTree(
 
 \item{z2}{if sepecifies the base of the arrow head (default NULL)}
 
-\item{c1}{variable for the color of the left part of the arrow head (dafault = z1)}
+\item{c1}{variable for the color of the left part of the top arrow head (dafault = z1)}
 
-\item{c2}{variable for the color of the right part of the arrow head (dafault = c1)}
+\item{c2}{variable for the color of the right part of the top arrow head (dafault = c1)}
+
+\item{c3}{variable for the color of the left part of the bottom arrow head (dafault = z1)}
+
+\item{c4}{variable for the color of the right part of the bottom arrow head (dafault = c1)}
 
 \item{mid}{specifying the ration of the base grid to the Z expansion (default = 1/3)}
 
@@ -76,6 +80,10 @@ doubleTree(
 \item{c1.col}{color palette for c1 (default from green to red)}
 
 \item{c2.col}{color palette for c2 (default from green to red)}
+
+\item{c3.col}{color palette for c3 (default from green to red)}
+
+\item{c4.col}{color palette for c4 (default from green to red)}
 }
 \value{
 invisible(NULL)
@@ -110,6 +118,7 @@ df <- data.frame(x = cos(seq(0, pi*1.3, length.out=20)),
                  c2 = rep(4:1, 6)[1:20],
                  c3 = rep(0:1, each = 10),
                  c4 = 1:20)
+
  doubleTree(x = df$x,
             y = df$y,
             z1 = df$z1,

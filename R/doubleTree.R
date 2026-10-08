@@ -13,8 +13,10 @@
 #' @param y numeric variable, NA not allowed
 #' @param z1 numeric variable specifies the tip of the arrow head
 #' @param z2 if sepecifies the base of the arrow head (default NULL)
-#' @param c1 variable for the color of the left part of the arrow head (dafault = z1)
-#' @param c2 variable for the color of the right part of the arrow head (dafault = c1)
+#' @param c1 variable for the color of the left part of the top arrow head (dafault = z1)
+#' @param c2 variable for the color of the right part of the top arrow head (dafault = c1)
+#' @param c3 variable for the color of the left part of the bottom arrow head (dafault = z1)
+#' @param c4 variable for the color of the right part of the bottom arrow head (dafault = c1)
 #' @param mid specifying the ration of the base grid to the Z expansion (default = 1/3)
 #' @param xscale Manual scale for x, usually you should use the default (auto)
 #' @param xar Width of the arrow base (default = 0.03)
@@ -25,6 +27,8 @@
 #' @param rev.palette Should the default color palette reverted that red is low and green = high?
 #' @param c1.col color palette for c1 (default from green to red)
 #' @param c2.col color palette for c2 (default from green to red)
+#' @param c3.col color palette for c3 (default from green to red)
+#' @param c4.col color palette for c4 (default from green to red)
 #'
 #' @return invisible(NULL)
 #'
@@ -48,6 +52,7 @@
 #'                  c2 = rep(4:1, 6)[1:20],
 #'                  c3 = rep(0:1, each = 10),
 #'                  c4 = 1:20)
+#'
 #'  doubleTree(x = df$x,
 #'             y = df$y,
 #'             z1 = df$z1,
