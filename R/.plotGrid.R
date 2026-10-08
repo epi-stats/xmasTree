@@ -1,6 +1,8 @@
 #' Internal function to plot the grid
 #'
 #' @return invisible(NULL)
+#'
+#' @export
 
 .plotGrid <- function(mid = mid,
                       xscale = xscale,
